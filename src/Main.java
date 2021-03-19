@@ -14,7 +14,7 @@ public class Main {
         Task task2 = new Task("Nakarmić kota", "młody rozrabiaka emka", taskCategory.IN_PROGRESS, dateToEnd2.toString());
         Task task3 = new Task("Stworzyć karmnik dla ptaków", "drewniana konstrukcja", taskCategory.DONE, dateToEnd3.toString());
         Date dateToEnd4 = new Date(System.currentTimeMillis() + TimeUnit.DAYS.toMillis(90));
-        Task task4 = new Task("Kupić mleko", "Lubie mleko ", taskCategory.NEW, dateToEnd4.toString());
+        Task task4 = new Task("Kupić mleko", "Lubie mleko", taskCategory.NEW, dateToEnd4.toString());
 
         List<Task> taskList = new ArrayList<Task>();
         taskList.add(task1);
